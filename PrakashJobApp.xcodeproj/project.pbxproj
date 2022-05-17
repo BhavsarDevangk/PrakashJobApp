@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		327313252833690A00130160 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327313242833690A00130160 /* AppDelegate.swift */; };
+		327313272833690A00130160 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327313262833690A00130160 /* SceneDelegate.swift */; };
+		327313292833690A00130160 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327313282833690A00130160 /* ViewController.swift */; };
+		3273132C2833690A00130160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3273132A2833690A00130160 /* Main.storyboard */; };
+		3273132E2833690A00130160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3273132D2833690A00130160 /* Assets.xcassets */; };
+		327313312833690A00130160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3273132F2833690A00130160 /* LaunchScreen.storyboard */; };
+		3273133C2833690A00130160 /* PrakashJobAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273133B2833690A00130160 /* PrakashJobAppTests.swift */; };
+		327313462833690A00130160 /* PrakashJobAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327313452833690A00130160 /* PrakashJobAppUITests.swift */; };
+		327313482833690A00130160 /* PrakashJobAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327313472833690A00130160 /* PrakashJobAppUITestsLaunchTests.swift */; };
+		3273135528336CCF00130160 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273135428336CCF00130160 /* Constant.swift */; };
+		3273135A28336E5600130160 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273135928336E5600130160 /* APIRequest.swift */; };
+		3273135F28336F3700130160 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273135D28336F3700130160 /* TextFieldTableViewCell.swift */; };
+		3273136028336F3700130160 /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273135E28336F3700130160 /* LabelTableViewCell.swift */; };
+		3273136528336F7600130160 /* SBPickerSwiftSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273136228336F7600130160 /* SBPickerSwiftSelector.swift */; };
+		3273136628336F7600130160 /* PickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273136328336F7600130160 /* PickerController.swift */; };
+		3273136728336F7600130160 /* SBPickerSwiftSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3273136428336F7600130160 /* SBPickerSwiftSelector.xib */; };
+		3273136A28336FAE00130160 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273136928336FAE00130160 /* ColorPicker.swift */; };
+		3273136D28336FDC00130160 /* CustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273136C28336FDC00130160 /* CustomTableView.swift */; };
+		327313702833700E00130160 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273136F2833700E00130160 /* ImagePickerController.swift */; };
+		327313732833702E00130160 /* MBProgressHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327313722833702E00130160 /* MBProgressHub.swift */; };
+		327313772833705A00130160 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327313752833705A00130160 /* HeaderView.swift */; };
+		327313782833705A00130160 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 327313762833705A00130160 /* HeaderView.xib */; };
+		3273137B2833707800130160 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273137A2833707800130160 /* Extension.swift */; };
+		3273137E2833718800130160 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3273137D2833718800130160 /* Alamofire */; };
+		32731381283371B600130160 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 32731380283371B600130160 /* IQKeyboardManagerSwift */; };
+		32731384283371E100130160 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 32731383283371E100130160 /* MBProgressHUD */; };
+		327313862833734000130160 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327313852833734000130160 /* LoginViewModel.swift */; };
+		327313882833735B00130160 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327313872833735B00130160 /* LoginModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		327313382833690A00130160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327313192833690A00130160 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327313202833690A00130160;
+			remoteInfo = PrakashJobApp;
+		};
+		327313422833690A00130160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327313192833690A00130160 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327313202833690A00130160;
+			remoteInfo = PrakashJobApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		327313212833690A00130160 /* PrakashJobApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrakashJobApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		327313242833690A00130160 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		327313262833690A00130160 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		327313282833690A00130160 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3273132B2833690A00130160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3273132D2833690A00130160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		327313302833690A00130160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		327313322833690A00130160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327313372833690A00130160 /* PrakashJobAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrakashJobAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3273133B2833690A00130160 /* PrakashJobAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrakashJobAppTests.swift; sourceTree = "<group>"; };
+		327313412833690A00130160 /* PrakashJobAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrakashJobAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		327313452833690A00130160 /* PrakashJobAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrakashJobAppUITests.swift; sourceTree = "<group>"; };
+		327313472833690A00130160 /* PrakashJobAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrakashJobAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3273135428336CCF00130160 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3273135928336E5600130160 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		3273135D28336F3700130160 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		3273135E28336F3700130160 /* LabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		3273136228336F7600130160 /* SBPickerSwiftSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBPickerSwiftSelector.swift; sourceTree = "<group>"; };
+		3273136328336F7600130160 /* PickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerController.swift; sourceTree = "<group>"; };
+		3273136428336F7600130160 /* SBPickerSwiftSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBPickerSwiftSelector.xib; sourceTree = "<group>"; };
+		3273136928336FAE00130160 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		3273136C28336FDC00130160 /* CustomTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableView.swift; sourceTree = "<group>"; };
+		3273136F2833700E00130160 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		327313722833702E00130160 /* MBProgressHub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBProgressHub.swift; sourceTree = "<group>"; };
+		327313752833705A00130160 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		327313762833705A00130160 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		3273137A2833707800130160 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		327313852833734000130160 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		327313872833735B00130160 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3273131E2833690A00130160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32731384283371E100130160 /* MBProgressHUD in Frameworks */,
+				3273137E2833718800130160 /* Alamofire in Frameworks */,
+				32731381283371B600130160 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327313342833690A00130160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3273133E2833690A00130160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		327313182833690A00130160 = {
+			isa = PBXGroup;
+			children = (
+				327313232833690A00130160 /* PrakashJobApp */,
+				3273133A2833690A00130160 /* PrakashJobAppTests */,
+				327313442833690A00130160 /* PrakashJobAppUITests */,
+				327313222833690A00130160 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		327313222833690A00130160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				327313212833690A00130160 /* PrakashJobApp.app */,
+				327313372833690A00130160 /* PrakashJobAppTests.xctest */,
+				327313412833690A00130160 /* PrakashJobAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		327313232833690A00130160 /* PrakashJobApp */ = {
+			isa = PBXGroup;
+			children = (
+				327313242833690A00130160 /* AppDelegate.swift */,
+				327313262833690A00130160 /* SceneDelegate.swift */,
+				3273135428336CCF00130160 /* Constant.swift */,
+				3273135B28336E8B00130160 /* CommanFile */,
+				3273135828336E4300130160 /* WebServices */,
+				3273135628336D4800130160 /* ViewController */,
+				3273132A2833690A00130160 /* Main.storyboard */,
+				3273132D2833690A00130160 /* Assets.xcassets */,
+				3273132F2833690A00130160 /* LaunchScreen.storyboard */,
+				327313322833690A00130160 /* Info.plist */,
+			);
+			path = PrakashJobApp;
+			sourceTree = "<group>";
+		};
+		3273133A2833690A00130160 /* PrakashJobAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3273133B2833690A00130160 /* PrakashJobAppTests.swift */,
+			);
+			path = PrakashJobAppTests;
+			sourceTree = "<group>";
+		};
+		327313442833690A00130160 /* PrakashJobAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				327313452833690A00130160 /* PrakashJobAppUITests.swift */,
+				327313472833690A00130160 /* PrakashJobAppUITestsLaunchTests.swift */,
+			);
+			path = PrakashJobAppUITests;
+			sourceTree = "<group>";
+		};
+		3273135628336D4800130160 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3273135728336D8400130160 /* Login */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3273135728336D8400130160 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				327313872833735B00130160 /* LoginModel.swift */,
+				327313852833734000130160 /* LoginViewModel.swift */,
+				327313282833690A00130160 /* ViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3273135828336E4300130160 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				3273135928336E5600130160 /* APIRequest.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		3273135B28336E8B00130160 /* CommanFile */ = {
+			isa = PBXGroup;
+			children = (
+				327313792833706A00130160 /* Extension */,
+				327313742833704600130160 /* HeaderView */,
+				327313712833701F00130160 /* Loader */,
+				3273136E2833700100130160 /* ImagePicker */,
+				3273136B28336FC900130160 /* Protocol */,
+				3273136828336F9100130160 /* ColorPicker */,
+				3273136128336F5F00130160 /* PickerController */,
+				3273135C28336F2100130160 /* TableViewCell */,
+			);
+			path = CommanFile;
+			sourceTree = "<group>";
+		};
+		3273135C28336F2100130160 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3273135E28336F3700130160 /* LabelTableViewCell.swift */,
+				3273135D28336F3700130160 /* TextFieldTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		3273136128336F5F00130160 /* PickerController */ = {
+			isa = PBXGroup;
+			children = (
+				3273136328336F7600130160 /* PickerController.swift */,
+				3273136228336F7600130160 /* SBPickerSwiftSelector.swift */,
+				3273136428336F7600130160 /* SBPickerSwiftSelector.xib */,
+			);
+			path = PickerController;
+			sourceTree = "<group>";
+		};
+		3273136828336F9100130160 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3273136928336FAE00130160 /* ColorPicker.swift */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		3273136B28336FC900130160 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3273136C28336FDC00130160 /* CustomTableView.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		3273136E2833700100130160 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				3273136F2833700E00130160 /* ImagePickerController.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		327313712833701F00130160 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				327313722833702E00130160 /* MBProgressHub.swift */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		327313742833704600130160 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				327313752833705A00130160 /* HeaderView.swift */,
+				327313762833705A00130160 /* HeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		327313792833706A00130160 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3273137A2833707800130160 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		327313202833690A00130160 /* PrakashJobApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3273134B2833690A00130160 /* Build configuration list for PBXNativeTarget "PrakashJobApp" */;
+			buildPhases = (
+				3273131D2833690A00130160 /* Sources */,
+				3273131E2833690A00130160 /* Frameworks */,
+				3273131F2833690A00130160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrakashJobApp;
+			packageProductDependencies = (
+				3273137D2833718800130160 /* Alamofire */,
+				32731380283371B600130160 /* IQKeyboardManagerSwift */,
+				32731383283371E100130160 /* MBProgressHUD */,
+			);
+			productName = PrakashJobApp;
+			productReference = 327313212833690A00130160 /* PrakashJobApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		327313362833690A00130160 /* PrakashJobAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3273134E2833690A00130160 /* Build configuration list for PBXNativeTarget "PrakashJobAppTests" */;
+			buildPhases = (
+				327313332833690A00130160 /* Sources */,
+				327313342833690A00130160 /* Frameworks */,
+				327313352833690A00130160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				327313392833690A00130160 /* PBXTargetDependency */,
+			);
+			name = PrakashJobAppTests;
+			productName = PrakashJobAppTests;
+			productReference = 327313372833690A00130160 /* PrakashJobAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		327313402833690A00130160 /* PrakashJobAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327313512833690A00130160 /* Build configuration list for PBXNativeTarget "PrakashJobAppUITests" */;
+			buildPhases = (
+				3273133D2833690A00130160 /* Sources */,
+				3273133E2833690A00130160 /* Frameworks */,
+				3273133F2833690A00130160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				327313432833690A00130160 /* PBXTargetDependency */,
+			);
+			name = PrakashJobAppUITests;
+			productName = PrakashJobAppUITests;
+			productReference = 327313412833690A00130160 /* PrakashJobAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		327313192833690A00130160 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					327313202833690A00130160 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					327313362833690A00130160 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 327313202833690A00130160;
+					};
+					327313402833690A00130160 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 327313202833690A00130160;
+					};
+				};
+			};
+			buildConfigurationList = 3273131C2833690A00130160 /* Build configuration list for PBXProject "PrakashJobApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 327313182833690A00130160;
+			packageReferences = (
+				3273137C2833718800130160 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3273137F283371B600130160 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				32731382283371E100130160 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+			);
+			productRefGroup = 327313222833690A00130160 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				327313202833690A00130160 /* PrakashJobApp */,
+				327313362833690A00130160 /* PrakashJobAppTests */,
+				327313402833690A00130160 /* PrakashJobAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3273131F2833690A00130160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327313312833690A00130160 /* LaunchScreen.storyboard in Resources */,
+				327313782833705A00130160 /* HeaderView.xib in Resources */,
+				3273132E2833690A00130160 /* Assets.xcassets in Resources */,
+				3273132C2833690A00130160 /* Main.storyboard in Resources */,
+				3273136728336F7600130160 /* SBPickerSwiftSelector.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327313352833690A00130160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3273133F2833690A00130160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3273131D2833690A00130160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3273137B2833707800130160 /* Extension.swift in Sources */,
+				3273136628336F7600130160 /* PickerController.swift in Sources */,
+				327313292833690A00130160 /* ViewController.swift in Sources */,
+				327313732833702E00130160 /* MBProgressHub.swift in Sources */,
+				327313862833734000130160 /* LoginViewModel.swift in Sources */,
+				327313252833690A00130160 /* AppDelegate.swift in Sources */,
+				327313272833690A00130160 /* SceneDelegate.swift in Sources */,
+				3273135F28336F3700130160 /* TextFieldTableViewCell.swift in Sources */,
+				327313882833735B00130160 /* LoginModel.swift in Sources */,
+				3273136028336F3700130160 /* LabelTableViewCell.swift in Sources */,
+				3273135A28336E5600130160 /* APIRequest.swift in Sources */,
+				327313702833700E00130160 /* ImagePickerController.swift in Sources */,
+				3273136A28336FAE00130160 /* ColorPicker.swift in Sources */,
+				3273136D28336FDC00130160 /* CustomTableView.swift in Sources */,
+				3273135528336CCF00130160 /* Constant.swift in Sources */,
+				3273136528336F7600130160 /* SBPickerSwiftSelector.swift in Sources */,
+				327313772833705A00130160 /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327313332833690A00130160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3273133C2833690A00130160 /* PrakashJobAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3273133D2833690A00130160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327313462833690A00130160 /* PrakashJobAppUITests.swift in Sources */,
+				327313482833690A00130160 /* PrakashJobAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		327313392833690A00130160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 327313202833690A00130160 /* PrakashJobApp */;
+			targetProxy = 327313382833690A00130160 /* PBXContainerItemProxy */;
+		};
+		327313432833690A00130160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 327313202833690A00130160 /* PrakashJobApp */;
+			targetProxy = 327313422833690A00130160 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3273132A2833690A00130160 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3273132B2833690A00130160 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3273132F2833690A00130160 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				327313302833690A00130160 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		327313492833690A00130160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3273134A2833690A00130160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3273134C2833690A00130160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83D7RPYBY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrakashJobApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PrakashInfo.PrakashJobApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3273134D2833690A00130160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83D7RPYBY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrakashJobApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PrakashInfo.PrakashJobApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3273134F2833690A00130160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83D7RPYBY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PrakashInfo.PrakashJobAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrakashJobApp.app/PrakashJobApp";
+			};
+			name = Debug;
+		};
+		327313502833690A00130160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83D7RPYBY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PrakashInfo.PrakashJobAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrakashJobApp.app/PrakashJobApp";
+			};
+			name = Release;
+		};
+		327313522833690A00130160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83D7RPYBY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PrakashInfo.PrakashJobAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrakashJobApp;
+			};
+			name = Debug;
+		};
+		327313532833690A00130160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83D7RPYBY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PrakashInfo.PrakashJobAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrakashJobApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3273131C2833690A00130160 /* Build configuration list for PBXProject "PrakashJobApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327313492833690A00130160 /* Debug */,
+				3273134A2833690A00130160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3273134B2833690A00130160 /* Build configuration list for PBXNativeTarget "PrakashJobApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3273134C2833690A00130160 /* Debug */,
+				3273134D2833690A00130160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3273134E2833690A00130160 /* Build configuration list for PBXNativeTarget "PrakashJobAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3273134F2833690A00130160 /* Debug */,
+				327313502833690A00130160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327313512833690A00130160 /* Build configuration list for PBXNativeTarget "PrakashJobAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327313522833690A00130160 /* Debug */,
+				327313532833690A00130160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3273137C2833718800130160 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+		3273137F283371B600130160 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		32731382283371E100130160 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3273137D2833718800130160 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3273137C2833718800130160 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		32731380283371B600130160 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3273137F283371B600130160 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		32731383283371E100130160 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32731382283371E100130160 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 327313192833690A00130160 /* Project object */;
+}
