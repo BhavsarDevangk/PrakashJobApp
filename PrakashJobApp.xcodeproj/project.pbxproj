@@ -35,6 +35,7 @@
 		32731384283371E100130160 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 32731383283371E100130160 /* MBProgressHUD */; };
 		327313862833734000130160 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327313852833734000130160 /* LoginViewModel.swift */; };
 		327313882833735B00130160 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327313872833735B00130160 /* LoginModel.swift */; };
+		A9BC286528337BE00097A50B /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = A9BC286428337BE00097A50B /* MBProgressHUD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 			files = (
 				32731384283371E100130160 /* MBProgressHUD in Frameworks */,
 				3273137E2833718800130160 /* Alamofire in Frameworks */,
+				A9BC286528337BE00097A50B /* MBProgressHUD in Frameworks */,
 				32731381283371B600130160 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +299,7 @@
 				3273137D2833718800130160 /* Alamofire */,
 				32731380283371B600130160 /* IQKeyboardManagerSwift */,
 				32731383283371E100130160 /* MBProgressHUD */,
+				A9BC286428337BE00097A50B /* MBProgressHUD */,
 			);
 			productName = PrakashJobApp;
 			productReference = 327313212833690A00130160 /* PrakashJobApp.app */;
@@ -374,6 +377,7 @@
 				3273137C2833718800130160 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				3273137F283371B600130160 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 				32731382283371E100130160 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				A9BC286328337BE00097A50B /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
 			);
 			productRefGroup = 327313222833690A00130160 /* Products */;
 			projectDirPath = "";
@@ -804,6 +808,14 @@
 				kind = branch;
 			};
 		};
+		A9BC286328337BE00097A50B /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -820,6 +832,11 @@
 		32731383283371E100130160 /* MBProgressHUD */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 32731382283371E100130160 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		A9BC286428337BE00097A50B /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9BC286328337BE00097A50B /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
 			productName = MBProgressHUD;
 		};
 /* End XCSwiftPackageProductDependency section */
